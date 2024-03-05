@@ -1,10 +1,10 @@
-using cepixConsole.Core.Logging.Modules;
+﻿using cepixConsole.Core.Logging.Models;
 
 namespace cepixConsole.Core.Logging;
 
 public class ConsoleLogger: IConsoleLogger
 {
-    public void Log(string str)
+    public void Log(String str)
     {
         Console.WriteLine(str);
     }

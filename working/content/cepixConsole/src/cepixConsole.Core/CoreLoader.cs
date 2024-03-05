@@ -1,6 +1,5 @@
-using cepixConsole.Core.Logging;
-using cepixConsole.Core.Logging.Modules;
-using cepixConsole.Core.Models.Application;
+﻿using cepixConsole.Core.Logging;
+using cepixConsole.Core.Logging.Models;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace cepixConsole.Core;
