@@ -18,7 +18,7 @@
     "type": "project"
   },
   "preferNameDirectory": true,
-  "sourceName": "cepixConsoleTemplate",
+  "sourceName": "cepixConsole",
   "primaryOutputs": [
     {
       "path": "src/cepixConsole.App/cepixConsole.App.csproj"
