@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Cepix1234",
+  "classifications": [
+    "Common",
+    "Console",
+    "Linux",
+    "Windows"
+  ],
+  "identity": "Cepix.DotNet.Console.CSharp",
+  "groupIdentity": "Cepix",
+  "name": "Cepix dotNet console",
+  "shortName": "cepixConsole",
+  "defaultName": "ConsoleApp",
+  "description": "Template for console application with app settings and cli arguments",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "sourceName": "cepixConsoleTemplate",
+  "primaryOutputs": [
+    {
+      "path": "src/cepixConsole.App/cepixConsole.App.csproj"
+    },
+    {
+      "path": "src/cepixConsole.Core/cepixConsole.Core.csproj"
+    },
+    {
+      "path": "src/cepixConsole.Infrastructure/cepixConsole.Infrastructure.csproj"
+    },
+    {
+      "condition": "(UseTests)",
+      "path": "tests/cepixConsole.Core.tests/cepixConsole.Core.tests.csproj"
+    }
+  ],
+  "sources": [
+    {
+      "source": "./src/cepixConsole.App/",
+      "target": "./src/cepixConsole.App/"
+    },
+    {
+      "source": "./src/cepixConsole.Core/",
+      "target": "./src/cepixConsole.Core/"
+    },
+    {
+      "source": "./src/cepixConsole.Infrastructure/",
+      "target": "./src/cepixConsole.Infrastructure/"
+    },
+    {
+      "source": "./tests/cepixConsole.Core.tests/",
+      "target": "./tests/cepixConsole.Core.tests/",
+      "condition": "(UseTests)"
+    }
+  ],
+  "symbols": {
+    "UseTests": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "displayName": "Create tests folder for project"
+    }
+  }
+}

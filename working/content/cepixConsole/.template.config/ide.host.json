@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/vs-2017.3.host",
+  "order": 200,
+  "symbolInfo": [
+    {
+      "id": "UseTests",
+      "name": {
+        "text": "_Use tests"
+      },
+      "isVisible": "true"
+    }
+  ]
+}
