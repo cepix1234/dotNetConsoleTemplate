@@ -1,16 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79BA90B0-07CF-47F7-8335-DCF0940A153A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{79BA90B0-07CF-47F7-8335-DCF0940A153A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.App", "src\cepixConsole.App\cepixConsole.App.csproj", "{3A5967C7-213A-4827-A509-A9DA092618BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.App", "app\cepixConsole.App\cepixConsole.App.csproj", "{3A5967C7-213A-4827-A509-A9DA092618BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.Core", "src\cepixConsole.Core\cepixConsole.Core.csproj", "{78EF4B41-BA32-4191-99A0-1075DB62FF23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.Core", "app\cepixConsole.Core\cepixConsole.Core.csproj", "{78EF4B41-BA32-4191-99A0-1075DB62FF23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.Infrastructure", "src\cepixConsole.Infrastructure\cepixConsole.Infrastructure.csproj", "{218DE586-411A-4AA9-86FD-2D3C856F0D68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.Infrastructure", "app\cepixConsole.Infrastructure\cepixConsole.Infrastructure.csproj", "{218DE586-411A-4AA9-86FD-2D3C856F0D68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{79BA90B0-07CF-47F7-8335-DCF0940A153A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.Core.tests", "tests\cepixConsole.Core.tests\cepixConsole.Core.tests.csproj", "{DF0F1DBA-2985-481A-B873-74868F1E5A0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepixConsole.Core.test", "app\cepixConsole.Core.test\cepixConsole.Core.test.csproj", "{DF0F1DBA-2985-481A-B873-74868F1E5A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,7 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3A5967C7-213A-4827-A509-A9DA092618BE} = {79BA90B0-07CF-47F7-8335-DCF0940A153A}
 		{78EF4B41-BA32-4191-99A0-1075DB62FF23} = {79BA90B0-07CF-47F7-8335-DCF0940A153A}
-		{218DE586-411A-4AA9-86FD-2D3C856F0D68} = {79BA90B0-07CF-47F7-8335-DCF0940A153A}
 		{DF0F1DBA-2985-481A-B873-74868F1E5A0A} = {79BA90B0-07CF-47F7-8335-DCF0940A153A}
+		{218DE586-411A-4AA9-86FD-2D3C856F0D68} = {79BA90B0-07CF-47F7-8335-DCF0940A153A}
 	EndGlobalSection
 EndGlobal
