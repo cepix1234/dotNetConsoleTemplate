@@ -21,35 +21,35 @@
   "sourceName": "cepixConsole",
   "primaryOutputs": [
     {
-      "path": "src/cepixConsole.App/cepixConsole.App.csproj"
+      "path": "app/cepixConsole.App/cepixConsole.App.csproj"
     },
     {
-      "path": "src/cepixConsole.Core/cepixConsole.Core.csproj"
+      "path": "app/cepixConsole.Core/cepixConsole.Core.csproj"
     },
     {
-      "path": "src/cepixConsole.Infrastructure/cepixConsole.Infrastructure.csproj"
+      "path": "app/cepixConsole.Infrastructure/cepixConsole.Infrastructure.csproj"
     },
     {
       "condition": "(UseTests)",
-      "path": "tests/cepixConsole.Core.tests/cepixConsole.Core.tests.csproj"
+      "path": "app/cepixConsole.Core.test/cepixConsole.Core.test.csproj"
     }
   ],
   "sources": [
     {
-      "source": "./src/cepixConsole.App/",
-      "target": "./src/cepixConsole.App/"
+      "source": "./app/cepixConsole.App/",
+      "target": "./app/cepixConsole.App/"
     },
     {
-      "source": "./src/cepixConsole.Core/",
-      "target": "./src/cepixConsole.Core/"
+      "source": "./app/cepixConsole.Core/",
+      "target": "./app/cepixConsole.Core/"
     },
     {
-      "source": "./src/cepixConsole.Infrastructure/",
-      "target": "./src/cepixConsole.Infrastructure/"
+      "source": "./app/cepixConsole.Infrastructure/",
+      "target": "./app/cepixConsole.Infrastructure/"
     },
     {
-      "source": "./tests/cepixConsole.Core.tests/",
-      "target": "./tests/cepixConsole.Core.tests/",
+      "source": "./app/cepixConsole.Core.test/",
+      "target": "./app/cepixConsole.Core.test/",
       "condition": "(UseTests)"
     }
   ],
