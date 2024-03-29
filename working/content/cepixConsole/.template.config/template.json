@@ -36,6 +36,13 @@
   ],
   "sources": [
     {
+      "source": "./",
+      "target": "./",
+      "include": [
+        "publish.ps1"
+      ]
+    },
+    {
       "source": "./app/cepixConsole.App/",
       "target": "./app/cepixConsole.App/"
     },
