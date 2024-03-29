@@ -28,7 +28,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\cepixConsole.Core\cepixConsole.Core.csproj" />
       <ProjectReference Include="..\cepixConsole.Core\cepixConsole.Core.csproj" />
     </ItemGroup>
 

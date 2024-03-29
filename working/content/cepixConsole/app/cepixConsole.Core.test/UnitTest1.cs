@@ -1,6 +1,6 @@
 using cepixConsole.Core.Logging;
 
-namespace cepixConsole.Core.tests;
+namespace cepixConsole.Core.test;
 
 public class Tests
 {
