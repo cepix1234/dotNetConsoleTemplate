@@ -16,6 +16,6 @@ public class Tests
         Console.SetOut(writer);
         ConsoleLogger logger = new ConsoleLogger();
         logger.Log("test");
-        Assert.AreEqual("test\r\n", writer.ToString());
+        Assert.That("test\r\n", Is.EqualTo(writer.ToString()));
     }
 }
