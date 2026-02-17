@@ -1,12 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Cepix1234",
-  "classifications": [
-    "Common",
-    "Console",
-    "Linux",
-    "Windows"
-  ],
+  "classifications": ["Common", "Console", "Linux", "Windows"],
   "identity": "Cepix.DotNet.Console.CSharp",
   "groupIdentity": "Cepix",
   "name": "Cepix dotNet console",
@@ -38,9 +33,7 @@
     {
       "source": "./",
       "target": "./",
-      "include": [
-        "publish.ps1"
-      ]
+      "include": ["publish.ps1", "publish.sh", "cepixConsoleTemplate.sln"]
     },
     {
       "source": "./app/cepixConsole.App/",
@@ -69,3 +62,4 @@
     }
   }
 }
+
