@@ -27,7 +27,7 @@ app.Configure(
     config =>
     {
         config.ValidateExamples();
-        
+
         config.AddCommand<HelloWorldCommand>("helloWorld")
             .WithAlias("hw")
             .WithDescription("Write hello world and if Argument passed check if it is in .*a.* format.")
@@ -36,7 +36,7 @@ app.Configure(
 
 return await app.RunAsync(args);
 
-void RegisterServices(IServiceCollection services)
+static void RegisterServices(IServiceCollection services)
 {
     CoreLoader.Load(services);
     InfrastructureLoader.Load(services);
