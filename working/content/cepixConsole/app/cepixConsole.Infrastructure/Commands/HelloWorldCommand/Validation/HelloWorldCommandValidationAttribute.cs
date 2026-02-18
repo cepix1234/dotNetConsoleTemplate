@@ -4,8 +4,10 @@ using Spectre.Console.Cli;
 
 namespace cepixConsole.Infrastructure.Commands.HelloWorldCommand.Validation;
 
-public class HelloWorldCommandValidationAttribute(string errorMessage) : ParameterValidationAttribute(errorMessage)
+public class HelloWorldCommandValidationAttribute : ParameterValidationAttribute
 {
+    public HelloWorldCommandValidationAttribute() : base("Attribute must follow format pattern") { }
+
     public override ValidationResult Validate(CommandParameterContext context)
     {
         if (context.Value is string)
