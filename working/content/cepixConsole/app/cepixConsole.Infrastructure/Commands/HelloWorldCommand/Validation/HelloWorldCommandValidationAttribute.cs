@@ -4,14 +4,8 @@ using Spectre.Console.Cli;
 
 namespace cepixConsole.Infrastructure.Commands.HelloWorldCommand.Validation;
 
-public class HelloWorldCommandValidationAttribute: ParameterValidationAttribute
+public class HelloWorldCommandValidationAttribute(string errorMessage) : ParameterValidationAttribute(errorMessage)
 {
-    #nullable disable
-    public HelloWorldCommandValidationAttribute() : base(errorMessage: null)
-    {
-    }
-    #nullable enable
-
     public override ValidationResult Validate(CommandParameterContext context)
     {
         if (context.Value is string)
